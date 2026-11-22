@@ -1,0 +1,21 @@
+# Результати складання Maven
+target/
+**/target/
+*.war
+*.class
+
+# IntelliJ IDEA та інші IDE
+.idea/
+*.iml
+out/
+.vscode/
+.DS_Store
+
+# Журнали
+*.log
+logs/
+
+# Локальні налаштування та секрети (паролі MySQL не зберігаються в GitHub)
+.env
+application-local.properties
+*.local.properties
